@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="tileGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <linearGradient id="innerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="tileShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#0f172a" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <!-- Base Rounded Tile -->
+  <rect x="36" y="36" width="440" height="440" rx="96" fill="url(#tileGrad)" filter="url(#tileShadow)"/>
+  
+  <!-- Inner Border / Highlight -->
+  <rect x="48" y="48" width="416" height="416" rx="84" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="4"/>
+  
+  <!-- Subtle decorative grid dots -->
+  <circle cx="90" cy="90" r="6" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="110" cy="90" r="6" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="90" cy="110" r="6" fill="rgba(255,255,255,0.15)"/>
+  
+  <!-- Central Big Letter 'P' -->
+  <path d="M 170 120 L 290 120 C 350 120, 390 155, 390 215 C 390 275, 350 310, 290 310 L 225 310 L 225 392 L 170 392 Z M 225 170 L 225 260 L 285 260 C 315 260, 335 242, 335 215 C 335 188, 315 170, 285 170 Z" fill="#ffffff"/>
+  
+  <!-- Small Scrabble-style Score Badge -->
+  <g transform="translate(365, 365)">
+    <rect x="-35" y="-30" width="60" height="45" rx="12" fill="#f59e0b"/>
+    <text x="-5" y="2" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="900" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">4U</text>
+  </g>
+</svg>
