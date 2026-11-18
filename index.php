@@ -372,7 +372,7 @@ $currentYear = date('Y');
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
     </style>
 </head>
-<body class="bg-gray-50 min-h-screen">
+<body class="bg-gray-50 min-h-screen overflow-x-hidden">
     <!-- Header -->
         <!-- Header -->
     <header class="bg-gradient-to-r from-blue-700 via-indigo-700 to-blue-900 text-white shadow-xl relative overflow-hidden">
