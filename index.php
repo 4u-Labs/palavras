@@ -8,8 +8,8 @@ $currentYear = date('Y');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palavreado — Dicionário Inteligente, Rimas & Jogos de Palavras | 4U.IA.BR</title>
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=20261120-2">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=20261120-2">
     <link rel="apple-touch-icon" href="icon-192.png">
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#1e40af">
@@ -375,6 +375,9 @@ $currentYear = date('Y');
         ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
         ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
     </style>
+
+    <!-- 4u-Labs SEO & Standard Meta -->
+    <link rel="canonical" href="https://4u.ia.br/app/palavras/">
 </head>
 <body class="bg-gray-50 min-h-screen overflow-x-hidden">
     <!-- Header -->
@@ -2061,5 +2064,7 @@ $currentYear = date('Y');
             });
         }
     </script>
+
+    <script defer src="/assets/4ulabs-ecosystem.js?v=20261122" data-fouru-i18n="1"></script>
 </body>
 </html>
